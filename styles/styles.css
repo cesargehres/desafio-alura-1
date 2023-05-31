@@ -130,32 +130,105 @@ header {
 .talentos {
     display: flex;
     flex-direction: column;
-    padding-top: 196px;
+    padding-top: 12.25rem;
     text-align: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .talentos__titulo {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     color: var(--cor-1);
-    line-height: 20px;
 }
 
 .talentos__subtitulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--cor-3);
     font-weight: 600;
-    line-height: 44px;
+    line-height: 2.75rem;
 }
 
 .talentos__texto {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400px;
     color: var(--cor-2);
-    padding-bottom: 44px;
+    padding-bottom: 2.75rem;
 }
 
 .talentos__img {
     width: auto;
+    padding-bottom: 4rem;
+}
+
+/* vagas */
+.vagas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 5.75rem;
+}
+
+.vagas__container__titulo {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--cor-3);
+    padding-left: 17%;
+}
+
+.vagas__container__subtitulo {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--cor-3);
+    padding: 4.75rem 0 2rem 19%;
+}
+
+ul {
+    font-size: 1rem;
+    color: var(--cor-2);
+    display: flex;
+    padding: 0 0 0 19%;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+/* colaborador comentario */
+.colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    gap: 2rem;
+}
+
+.colaborador__comentario {
+    text-align: center;
+}
+
+.colaborador__comentario__titulo {
+    font-size: 0.875rem;
+    color: var(--cor-1);
+    padding: 2rem 0 1rem 0;
+}
+
+.colaborador__comentario__texto {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: var(--cor-3);
+}
+
+.colaborador__perfil {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.colaborador__perfil__nome {
+    font-size: 1rem;
+    padding-bottom: 0.25rem;
+    color: var(--cor-3);
+}
+
+.colaborador__perfil__ocupacao {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--cor-2);
 }
