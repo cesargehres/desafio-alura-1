@@ -232,3 +232,44 @@ ul {
     line-height: 1.25rem;
     color: var(--cor-2);
 }
+
+/* rodapé */
+footer {
+    padding: 96px 0px;
+    text-align: center;
+}
+
+.rodape__titulo {
+    font-size: 2.25rem;
+    color: var(--cor-3);
+    padding-top: 96px;
+}
+
+.rodape__texto {
+    font-size: 1.25rem;
+    color: var(--cor-2);
+    padding-top: 1.25rem;
+}
+
+.rodape__formulario {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0 2rem 0;
+    gap: 1rem;
+}
+
+.rodape__formulario__caixa {
+    padding: 0.3rem 9rem 0.3rem 1.25rem;
+    border-radius: 0.5rem;
+    border: 0.062rem solid #D0D5DD;
+}
+
+.rodape__formulario__button {
+    width: 7rem;
+    background: var(--cor-1);
+    color: white;
+}
+
+.rodape__textofinal {
+    color: var(--cor-2);
+}
